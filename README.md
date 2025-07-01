@@ -1,4 +1,4 @@
-📧 ChatGPT-Powered Email Reply Generator
+📧 AI-Powered Email Reply Generator
 Generate professional, friendly, or custom-tone email replies using AI. Built with React + TailwindCSS, powered by Hugging Face’s Zephyr-7B LLM.
 
 🚀 Live Demo
