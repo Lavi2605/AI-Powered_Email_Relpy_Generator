@@ -1,0 +1,40 @@
+How to Create a Hugging Face API Token (Step-by-Step)
+====================================================
+
+1. Go to the Hugging Face Website
+   - Open your browser and go to: https://huggingface.co/
+
+2. Sign Up or Log In
+   - If you already have an account, click 'Log in' (top right) and enter your credentials.
+   - If you do not have an account, click 'Sign Up' and follow the instructions to create one.
+
+3. Access Your Account Settings
+   - Once logged in, click your profile picture or initials in the top right corner.
+   - In the dropdown menu, click 'Settings'.
+
+4. Go to the Access Tokens Page
+   - In the left sidebar of the Settings page, click on 'Access Tokens'.
+   - Or go directly to: https://huggingface.co/settings/tokens
+
+5. Create a New Token
+   - Click the 'New token' or 'Create new token' button.
+   - Enter a name for your token (e.g., 'email-reply-app').
+   - For 'Role', select 'Read' (default is fine for most API use).
+   - Click 'Generate' or 'Create'.
+
+6. Copy Your Token
+   - After creation, your token will be shown (it starts with 'hf_').
+   - Copy the token and keep it safe. You will not be able to see it again!
+
+7. Add the Token to Your Project
+   - In your project folder, create a file named `.env` if it doesn't exist.
+   - Add this line to the file (replace with your actual token):
+     REACT_APP_HF_API_KEY=hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+8. Restart Your Development Server
+   - After saving the `.env` file, stop and restart your dev server (npm start) to load the new environment variable.
+
+9. Done!
+   - Your app can now use the Hugging Face API for free (within the free tier limits).
+
+If you have any issues, visit the Hugging Face help center: https://huggingface.co/support 
